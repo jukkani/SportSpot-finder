@@ -1,6 +1,6 @@
 # SportSpot finder
 
- SportSpot finder is a static web app for finding nearby sports facilities in Finland. It loads facility data from the LIPAS API, displays facilities on a Leaflet map, and can request walking routes from a chosen location to a facility using Digitransit.
+ SportSpot finder is a static web app for finding nearby sports facilities in Finland. It loads facility data from the LIPAS API, displays facilities on a Leaflet map, and can request  routes from a chosen location to a facility using Digitransit.
 
 ![Screenshot of  SportSpot finder](./Screenshot.jpg)
 
@@ -54,5 +54,5 @@ All values in `config.js` are delivered to the browser and can be read by users.
 
 LIPAS currently does not provide a distance-based query for this page. The app therefore fetches municipality pages and computes distance in the browser; facilities on pages not loaded yet cannot appear until their page is fetched.
 
-Fetching map tiles and reverse-geocoding could be also done using Digitransit. However then whole would be unusable without proper API key.
+Fetching map tiles and reverse-geocoding could be also done using Digitransit. However then whole page would be unusable without proper API key.
 
